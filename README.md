@@ -11,7 +11,7 @@ Flask REST API for the band website, created from the IBM Skills Network templat
 ## Run
 ```sh
 python -m pip install -r requirements.txt
-flask --app app run --host 0.0.0.0 --port 5000
+FLASK_APP=app flask run --host 0.0.0.0 --port 5000
 ```
 
 ## API
